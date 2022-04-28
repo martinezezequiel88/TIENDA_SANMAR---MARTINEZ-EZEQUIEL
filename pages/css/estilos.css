@@ -1,201 +1,208 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Roboto:wght@100;300;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Roboto:wght@100;300;500;900&display=swap");
+nav {
+  background-color: #FFEEEE;
+}
+nav ul {
+  margin: 10px;
+  padding: 0px;
+  list-style-type: none;
+}
+nav li {
+  font-family: verdana;
+  font-size: 15px;
+}
+nav a {
+  color: rgb(199, 124, 186);
+}
+
+main div {
+  font-family: verdana;
+  font-size: 15px;
+  color: rgb(199, 124, 186);
+}
+
+footer section {
+  font-family: arial;
+  font-size: 20px;
+  color: rgb(199, 124, 186);
+}
+footer p {
+  font-size: 13px;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    
+  font-family: "Roboto", sans-serif;
 }
 
-
-.navbar{
-    background-color: #FFEEEE;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    align-items: center;
+.navbar {
+  background-color: #FFEEEE;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
 }
 
-.navbar .logo{
-    width: AUTO;
-    height: auto;
-    grid-column: 1 / 2;
+.navbar .logo {
+  width: AUTO;
+  height: auto;
+  grid-column: 1/2;
 }
 
-.navbar .menu{
-    grid-column: 2 / 7;
-    display: flex;
-    justify-content: space-around;
+.navbar .menu {
+  grid-column: 2/7;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar .menu li {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar .menu a {
-    text-decoration: none;
-    color: rgb(199, 124, 186);
-    cursor: pointer;
+  text-decoration: none;
+  color: rgb(199, 124, 186);
+  cursor: pointer;
 }
 
 .navbar .menu-bar {
-    display: none;
-    }
-
-.navbar .shopping {
-    grid-column: 7 / 8;
-        
+  display: none;
 }
 
+.navbar .shopping {
+  grid-column: 7/8;
+}
 
-.main .main{
-    grid-column: 1 / 8;
+.main .main {
+  grid-column: 1/8;
 }
 
 .main .cabecerafoto {
-    display: grid;
-    max-width: 100%;
-    
+  display: grid;
+  max-width: 100%;
 }
 
 .main .CUADERNOyAGENDA {
-    display: grid;
-    margin: auto;
+  display: grid;
+  margin: auto;
 }
 
 .main .ALBUMFOTOS {
-    display: grid;
-    margin: auto;
+  display: grid;
+  margin: auto;
 }
 
 .main .POSTALES {
-    display: grid;
-    margin: auto;
+  display: grid;
+  margin: auto;
 }
 
 .main .categorias {
-    display: grid;
-    align-items: center;
-    color: rgb(199, 124, 186);
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    padding: 20px;
-    justify-content: center;
+  display: grid;
+  align-items: center;
+  color: rgb(199, 124, 186);
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: center;
 }
 
 .main .cyatexto {
-    display: grid;
-    align-items: center;
-    color: cornflowerblue;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 60px;
-    padding: 5px;
-    justify-content: center;
-    
+  display: grid;
+  align-items: center;
+  color: cornflowerblue;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+  padding: 5px;
+  justify-content: center;
 }
 
 .main .AFTEXTO {
-    display: grid;
-    align-items: center;
-    color: cornflowerblue;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 60px;
-    padding: 5px;
-    justify-content: center;
-    
+  display: grid;
+  align-items: center;
+  color: cornflowerblue;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+  padding: 5px;
+  justify-content: center;
 }
 
 .main .postalestexto {
-    display: grid;
-    align-items: center;
-    color: cornflowerblue;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 60px;
-    padding: 5px;
-    justify-content: center;
-    
+  display: grid;
+  align-items: center;
+  color: cornflowerblue;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+  padding: 5px;
+  justify-content: center;
 }
 
-
-
 .footer {
-    display: grid;
-    height: 80px;
-    align-items: center;
-    background-color:#FFEEEE ;
-    color: rgb(199, 124, 186);
-    grid-template-areas:
-    "redes-sociales medios-de-pago";
-    font-size: larger;
+  display: grid;
+  height: 80px;
+  align-items: center;
+  background-color: #FFEEEE;
+  color: rgb(199, 124, 186);
+  grid-template-areas: "redes-sociales medios-de-pago";
+  font-size: larger;
 }
 
 .footer .medios-de-pago {
-    grid-template-areas: medios-de-pago;
-    display: flex;
-    justify-content: flex-start;
-    padding: 16px;
-    color: cornflowerblue;
-    
-        
+  grid-template-areas: medios-de-pago;
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px;
+  color: cornflowerblue;
 }
 
 .footer .redes-sociales {
-    grid-template-areas: redes-sociales;
-    display: flex;
-    justify-content: safe;
-    padding: 16px;
-    color: cornflowerblue;
-    
-    
+  grid-template-areas: redes-sociales;
+  display: flex;
+  justify-content: safe;
+  padding: 16px;
+  color: cornflowerblue;
 }
 
 .footer .pie-de-pagina {
-    grid-template-areas: pie-de-pagina;
-    display: flex;
-    padding: 20px;
-    justify-content: center;
+  grid-template-areas: pie-de-pagina;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
 }
 
 .footer .medios-de-pago .fa-brands {
-    font-size: 2em;
-    margin-right: 10px;
-    padding-left: 4px;
-
+  font-size: 2em;
+  margin-right: 10px;
+  padding-left: 4px;
 }
 
 .footer .medios-de-pago .fa-solid {
-    font-size: 2em;
-    margin-right: 10px;
-    padding-left: 4px;
-
+  font-size: 2em;
+  margin-right: 10px;
+  padding-left: 4px;
 }
-
-
 
 .footer .redes-sociales .fa-brands {
-    font-size: 2em;
-    margin-right: 10px;
-    
-
+  font-size: 2em;
+  margin-right: 10px;
 }
-
 
 .footer .pie-de-pagina {
-    display: grid;
-    height: 100px;
-    align-items: end;
-    justify-content: end;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    
-    
-
+  display: grid;
+  height: 100px;
+  align-items: end;
+  justify-content: end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
 }
+
+/*# sourceMappingURL=estilos.css.map */

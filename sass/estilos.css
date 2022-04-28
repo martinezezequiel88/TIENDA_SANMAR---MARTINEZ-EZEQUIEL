@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Roboto:wght@100;300;500;900&display=swap");
+nav {
+  background-color: #FFEEEE;
+}
+
+nav ul {
+  margin: 10px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav li {
+  font-family: verdana;
+  font-size: 15px;
+}
+
+nav a {
+  color: #c77cba;
+}
+
+main div {
+  font-family: verdana;
+  font-size: 15px;
+  color: #c77cba;
+}
+
+footer section {
+  font-family: arial;
+  font-size: 20px;
+  color: #c77cba;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #FFEEEE;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .logo {
+  width: AUTO;
+  height: auto;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+.navbar .menu {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2 / 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar .menu li {
+  list-style: none;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: #c77cba;
+  cursor: pointer;
+}
+
+.navbar .menu-bar {
+  display: none;
+}
+
+.navbar .shopping {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 1;
+  grid-column: 7 / 8;
+}
+
+.main .main {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-column: 1 / 8;
+}
+
+.main .cabecerafoto {
+  display: -ms-grid;
+  display: grid;
+  max-width: 100%;
+}
+
+.main .CUADERNOyAGENDA {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+}
+
+.main .ALBUMFOTOS {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+}
+
+.main .POSTALES {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+}
+
+.main .categorias {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c77cba;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .cyatexto {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: cornflowerblue;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .AFTEXTO {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: cornflowerblue;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .postalestexto {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: cornflowerblue;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFEEEE;
+  color: #c77cba;
+      grid-template-areas: "redes-sociales medios-de-pago";
+  font-size: larger;
+}
+
+.footer .medios-de-pago {
+      grid-template-areas: medios-de-pago;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 16px;
+  color: cornflowerblue;
+}
+
+.footer .redes-sociales {
+      grid-template-areas: redes-sociales;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: safe;
+      -ms-flex-pack: safe;
+          justify-content: safe;
+  padding: 16px;
+  color: cornflowerblue;
+}
+
+.footer .pie-de-pagina {
+      grid-template-areas: pie-de-pagina;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .medios-de-pago .fa-brands {
+  font-size: 2em;
+  margin-right: 10px;
+  padding-left: 4px;
+}
+
+.footer .medios-de-pago .fa-solid {
+  font-size: 2em;
+  margin-right: 10px;
+  padding-left: 4px;
+}
+
+.footer .redes-sociales .fa-brands {
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+.footer .pie-de-pagina {
+  display: -ms-grid;
+  display: grid;
+  height: 100px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+/*# sourceMappingURL=estilos.css.map */
