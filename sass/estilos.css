@@ -15,13 +15,13 @@ nav li {
 }
 
 nav a {
-  color: #c77cba;
+  color: primario;
 }
 
 main div {
   font-family: verdana;
   font-size: 15px;
-  color: #c77cba;
+  color: primario;
 }
 
 footer section {

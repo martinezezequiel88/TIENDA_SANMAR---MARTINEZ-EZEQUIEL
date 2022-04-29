@@ -12,13 +12,13 @@ nav li {
   font-size: 15px;
 }
 nav a {
-  color: rgb(199, 124, 186);
+  color: primario;
 }
 
 main div {
   font-family: verdana;
   font-size: 15px;
-  color: rgb(199, 124, 186);
+  color: primario;
 }
 
 footer section {
