@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="pages/css/mediaQueries.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">    
     
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script   script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--SEO-->
     <meta name="description" content="Somos SANMAR, una empresa dedicada a relizar productos para las mamas y bebes. Encontra aqui cuadernos pediatricos, agendas de embarazo, kits y postales de embarazo entre otros.">
     <meta name="keywords" content="CUADERNOS, AGENDAS, CUADERNOS PEDIATRICOS, AGENDAS DE EMBARAZO, MAMA, BEBE, EMBARAZO, PRODUCTOS PARA MAMAS, PRODUCTOS PARA BEBES, REGALOS, REGALOS PARA MAMAS, REGALOS PARA BEBES, REGALOS PARA EMBARAZADAS, KITS CRECIMIENTO, POSTALES DE EMBARAZO, MATERNIDAD,agenda embarazo donde comprar,la mejor agenda de embarazo ">
     <title>TIENDA SANMAR - Todo para la Mamá</title>
@@ -26,28 +31,23 @@
 <header>
     
 
-    <nav class="navbar">
-        <img src="ASSETS/LOGO/LOGO.png" class="logo" alt="SANMAR CUEDERNOS PEDIATRICOS" height="auto" width="auto"/>
-
-
-
-        <ul class="menu" id="menu">
-            <li><a href="#">INICIO</a></li>
-            <li><a href="pages/productos.html">PRODUCTOS</a></li>
-            <li><a href="pages/envios.html">ENVIOS</a></li>
-            <li><a href="pages/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a></li>
-            <li><a href="pages/contacto.html">CONTACTO</a></li>
-        </ul>
-
-        <div class="menu-bar" id="menu-bar">
-            <i class="fa-solid fa-bars"></i>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="../TIENDA_SANMAR/index.html"><img src="ASSETS/LOGO/LOGO.png" class="figure-img img-fluid rounded" alt="SANMAR CUEDERNOS PEDIATRICOS" height="auto" width="auto"/></a>
+        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/productos.html">PRODUCTOS</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/envios.html">ENVIOS</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/contacto.html">CONTACTO</a>
+                    </div>
+                </div>
         </div>
-
-            <div class="shopping">
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-
-    </nav>  
+    </nav>
 </header>
 
 
@@ -57,7 +57,7 @@
     
 
     <div>
-    <img class="cabecerafoto" id="cabecerafoto" src="ASSETS/images/fotoCabecera.png"/>
+    <a href="../TIENDA_SANMAR/pages/productos.html"><img class="figure-img img-fluid rounded" src="ASSETS/images/fotoCabecera.png"></a>
     </div>
 
 
@@ -66,35 +66,51 @@
     </div>
 
 
-    <div>
-    <img class="CUADERNOyAGENDA" id="CUADERNOyAGENDA" src="ASSETS/images/CUADERNOyAGENDA.jpeg" height="400" width="400"/>
-    </div>
+    <section class="pt-3 pb-3">
+        <div class="container">
+          <div class="row row-grid">
+            <div class="col-xs-6 col-md-6 my-1">
+              <figure class="CUADERNOYAGENDA1">
+                <a href="../TIENDA_SANMAR/pages/productos.html"><img class="figure-img img-fluid rounded" src="../TIENDA_SANMAR/assets/images/CUADERNOyAGENDA.jpeg"></a>
+                <a href="../TIENDA_SANMAR/pages/productos.html"><figcaption class="figure-caption">CUADERNOS Y AGENDAS.</a>
+                    
+                </figcaption>
+              </figure>
+            </div>
 
-    <div>
-    <p class="cyatexto" id="cyatexto"><a href="pages/Productos.html">Cuadernos y Agendas</a></p>
+            <div class="col-xs-6 col-md-6 my-1">
+              <figure class="ALBUMDEFOTO1">
+                <a href="../TIENDA_SANMAR/pages/productos.html"><img class="figure-img img-fluid rounded" src="../TIENDA_SANMAR/assets/images/ALBUMFOTOS.JPG"></a>
+                <a href="../TIENDA_SANMAR/pages/productos.html"><figcaption class="figure-caption">ALBUM DE FOTOS.</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
-
-
-    <div>
-    <img class="ALBUMFOTOS" id="ALBUMFOTOS" src="ASSETS/images/ALBUMFOTOS.JPG" height="400" width="400"/>
-    </div>
-
-    <div>
-        <p class="AFTEXTO" id="AFTEXTO"><a href="pages/Productos.html">Album de Fotos</a></p>
-    </div>
-
-    <div>
-    <img class="POSTALES" id="POSTALES" src="ASSETS/images/POSTALES.jpeg" height="400" width="400"/>
+      </section>
     
-    <div>
-        <p class="postalestexto" id="postalestexto"><a href="pages/Productos.html">Kits y Postales</a></p>
-    </div>
-    
+      <section class="pt-3 pb-3">
+        <div class="container">
+          <div class="row row-grid">
+            <div class="col-xs-6 col-md-6 my-1">
+              <figure class="KIT1">
+                <a href="../TIENDA_SANMAR/pages/productos.html"><img class="figure-img img-fluid rounded" src="../TIENDA_SANMAR/assets/images/KIT.jpeg"></a>
+                <a href="../TIENDA_SANMAR/pages/productos.html"><figcaption class="figure-caption">KIT CRECIMIENTO.</a>
+                    
+                </figcaption>
+              </figure>
+            </div>
 
-
-
-
-
+            <div class="col-xs-6 col-md-6 my-1">
+              <figure class="POSTAL1">
+                <a href="../TIENDA_SANMAR/pages/productos.html"><img class="figure-img img-fluid rounded" src="../TIENDA_SANMAR/assets/images/POSTAL.jpg"></a>
+                <a href="../TIENDA_SANMAR/pages/productos.html"><figcaption class="figure-caption">POSTALES DE EMBARAZO.</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
 
 </div>
 
@@ -105,30 +121,22 @@
 
 <footer class="footer">
 
-    <section>
-    <H5>MEDIOS DE PAGO</H5>
-    
-    <div class="medios-de-pago">
-        <i class="fa-brands fa-cc-visa"></i>
-        <i class="fa-solid fa-money-bill-1"></i>
-    </div>   
+    <section class="footer">
+        <footer class="pt-4 pb-4 ">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col">
+                <p>© 2022 SANMAR CUADERNOS. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
     </section>
-
-    <section>
-    <h5>REDES SOCIALES</h5>
-    <div class="redes-sociales">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-    </div>
-</section>
-
-<div class="pie-de-pagina" id="pie-de-pagina"> <p>SANMAR® - 2022. Todos los derechos reservados.</p>
-</div>
     
     
 </footer>
 
-<script src="pages/css/js/script.js"></script>
+<script src="../TIENDA_SANMAR/pages/js/script.js"></script>
     
 </body> 
 

@@ -4,65 +4,237 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
 
-    <meta name="description" content="Somos SANMAR, una empresa dedicada a relizar productos para las mamas y bebes. Encontra aqui cuadernos pediatricos, agendas de embarazo, kits y postales de embarazo entre otros.">
-    <meta name="keywords" content="CUADERNOS, AGENDAS, CUADERNOS PEDIATRICOS, AGENDAS DE EMBARAZO, MAMA, BEBE, EMBARAZO, PRODUCTOS PARA MAMAS, PRODUCTOS PARA BEBES, REGALOS, REGALOS PARA MAMAS, REGALOS PARA BEBES, REGALOS PARA EMBARAZADAS, KITS CRECIMIENTO, POSTALES DE EMBARAZO, MATERNIDAD,agenda embarazo donde comprar,la mejor agenda de embarazo ">
+    <link rel="stylesheet" href="pages/css/estilos.css">
+    <link rel="stylesheet" href="pages/css/mediaQueries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">    
     
-    <title>TIENDA SANMAR . prductos</title>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script   script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--SEO-->
+    <meta name="description" content="Somos SANMAR, una empresa dedicada a relizar productos para las mamas y bebes. Encontra aqui cuadernos pediatricos, agendas de embarazo, kits y postales de embarazo entre otros.">
+    <meta name="keywords" content="PRODUCTOS PARA LA MAMA,CUADERNOS, AGENDAS, CUADERNOS PEDIATRICOS, AGENDAS DE EMBARAZO, MAMA, BEBE, EMBARAZO, PRODUCTOS PARA MAMAS, PRODUCTOS PARA BEBES, REGALOS, REGALOS PARA MAMAS, REGALOS PARA BEBES, REGALOS PARA EMBARAZADAS, KITS CRECIMIENTO, POSTALES DE EMBARAZO, MATERNIDAD,agenda embarazo donde comprar,la mejor agenda de embarazo ">
+    <title>TIENDA SANMAR - Todo para la Mamá - PRODUCTOS</title>
+
+
 </head>
+
+
 <body>
-    <header>
-            <img src="assets/LOGO/LOGO.png" height="350" width="350"/>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="#">PRODUCTOS</a></li>
-            <li><a href="envios.html">ENVIOS</a></li>
-            <li><a href="preguntas frecuentes.html">PREGUNTAS FRECUENTES</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-        </ul>
-
-    </nav>  
+    
 
 
-<main> 
-    <img src="ASSETS/images/fotoCabecera.png"/>
+<header>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="../TIENDA_SANMAR/index.html"><img src="ASSETS/LOGO/LOGO.png" class="figure-img img-fluid rounded" alt="SANMAR CUEDERNOS PEDIATRICOS" height="auto" width="auto"/></a>
+        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="#">PRODUCTOS</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/productos.html">ENVIOS</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a>
+                        <a class="nav-link" href="../TIENDA_SANMAR/pages/contacto.html">CONTACTO</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+</header>
+
+
+
+
+<main class="mainproductos">  
+
+
+
+
+    <div class="categorias" id="categoriacuaderno">
+        <H3>CUADERNOS</H3>
+    </div>
+
+
+    <div  id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/images/CUADERNO.jpg" class="d-block w-100" alt="cuaderno0">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/cuaderno2.jpg" class="d-block w-100" alt="cuaderno1">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/cuaderno3.jpeg" class="d-block w-100" alt="cuaderno2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+</div>
+
+<div class="categorias" id="categoriaagenda">
+    <H3>AGENDAS</H3>
+</div>
+
+
+<div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/images/AGENDA.jpeg" class="d-block w-100" alt="agenda0">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/agenda1.jpeg" class="d-block w-100" alt="agenda1">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/agenda2.jpeg" class="d-block w-100" alt="agenda2">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="categorias" id="categoriakits">
+    <H3>KITS Y POSTALES</H3>
+</div>
+
+
+<div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/images/KIT.jpeg" class="d-block w-100" alt="KIT0">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/POSTAL.jpg" class="d-block w-100" alt="KIT1">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/images/POSTALES.jpeg" class="d-block w-100" alt="KIT2">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="compras" id="compra">
+    <H3>COMPRA</H3>
+</div>
+
+  <div class="cuadernocompra" style="width: 18rem;">
+    <img src="../assets/images/CUADERNO.jpg" class="card-img-top" alt="compracuaderno">
+    <div class="card-body">
+      <h5 class="card-title">CUADERNO PEDIATRICO</h5>
+      <p class="card-text">$2.609   6 CUOTAS SIN INTERÉS DE $434,83
+        15% de descuento pagando con Efectivo/Transferencia</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+
+   <div class="agendacompra" style="width: 18rem;">
+    <img src="../assets/images/agenda1.jpeg" class="card-img-top" alt="compraagenda">
+    <div class="card-body">
+      <h5 class="card-title">AGENDA DE EMBARAZO</h5>
+      <p class="card-text">$3.519  6 CUOTAS SIN INTERÉS DE $586,50
+        15% de descuento pagando con Efectivo/Transferencia</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+  <div class="KITcompra" style="width: 18rem;">
+    <img src="../assets/images/KIT.jpeg" class="card-img-top" alt="compraKIT">
+    <div class="card-body">
+      <h5 class="card-title">KIT DE CRECIMIENTO</h5>
+      <p class="card-text">$1.990 6 CUOTAS SIN INTERÉS DE $331,67
+        15% de descuento pagando con Efectivo/Transferencia</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+  <div class="POSTALEScompra" style="width: 18rem;">
+    <img src="../assets/images/POSTAL.jpg" class="card-img-top" alt="compraPOSTAL">
+    <div class="card-body">
+      <h5 class="card-title">POSTAL DE EMBARAZO</h5>
+      <p class="card-text">$1.990  6 CUOTAS SIN INTERÉS DE $331,67
+        15% de descuento pagando con Efectivo/Transferencia</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+
+
+  
+</div>
+
+
+
+
+
 </main>
 
-<br>
 
 
 
 <footer class="footer">
 
-    <section>
-    <H5>MEDIOS DE PAGO</H5>
-    
-    <div class="medios-de-pago">
-        <i class="fa-brands fa-cc-visa"></i>
-        <i class="fa-solid fa-money-bill-1"></i>
-    </div>   
+    <section class="footer">
+        <footer class="pt-4 pb-4 ">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col">
+                <p>© 2022 SANMAR CUADERNOS. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
     </section>
-
-    <section>
-    <h5>REDES SOCIALES</h5>
-    <div class="redes-sociales">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-    </div>
-</section>
-
-    <P class="pie-de-pagina">Copyright SANMAR® - 2022. Todos los derechos reservados. </P>
     
     
 </footer>
 
-<script src="pages/css/js/script.js"></script>
-
-
+<script src="../pages/js/script.js"></script>
     
 </body> 
 

@@ -1,122 +1,166 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">    
 
+    <link rel="stylesheet" href="../pages/css/estilos.css">
+    <link rel="stylesheet" href="../pages/css/mediaQueries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">    
+    
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script   script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--SEO-->
     <meta name="description" content="Somos SANMAR, una empresa dedicada a relizar productos para las mamas y bebes. Encontra aqui cuadernos pediatricos, agendas de embarazo, kits y postales de embarazo entre otros.">
-    <meta name="keywords" content="CUADERNOS, AGENDAS, CUADERNOS PEDIATRICOS, AGENDAS DE EMBARAZO, MAMA, BEBE, EMBARAZO, PRODUCTOS PARA MAMAS, PRODUCTOS PARA BEBES, REGALOS, REGALOS PARA MAMAS, REGALOS PARA BEBES, REGALOS PARA EMBARAZADAS, KITS CRECIMIENTO, POSTALES DE EMBARAZO, MATERNIDAD,agenda embarazo donde comprar,la mejor agenda de embarazo ">
-    
-    <title>TIENDA SANMAR - contacto</title>
+    <meta name="keywords" content="ENVIOS, CUADERNOS, AGENDAS, CUADERNOS PEDIATRICOS, AGENDAS DE EMBARAZO, MAMA, BEBE, EMBARAZO, PRODUCTOS PARA MAMAS, PRODUCTOS PARA BEBES, REGALOS, REGALOS PARA MAMAS, REGALOS PARA BEBES, REGALOS PARA EMBARAZADAS, KITS CRECIMIENTO, POSTALES DE EMBARAZO, MATERNIDAD,agenda embarazo donde comprar,la mejor agenda de embarazo ">
+    <title>TIENDA SANMAR - Todo para la Mamá - ENVIOS</title>
+
+
 </head>
+
+
 <body>
-    <header>
-            <img src="assets/LOGO/LOGO.png" height="350" width="350"/>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="productos.html">PRODUCTOS</a></li>
-            <li><a href="envios.html">ENVIOS</a></li>
-            <li><a href="preguntas frecuentes.html">PREGUNTAS FRECUENTES</a></li>
-            <li><a href="#">CONTACTO</a></li>
-        </ul>
-
-    </nav>  
+    
 
 
-<main> 
-    <img src="ASSETS/images/fotoCabecera.png"/>
+<header>
+    
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="well well-sm">
-                    <form class="form-horizontal" method="post">
-                        <fieldset>
-                            <legend class="text-center header">Contáctenos</legend>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="email" name="email" type="text" placeholder="Direccion de email" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje" rows="7"></textarea>
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="../TIENDA_SANMAR/index.html"><img src="ASSETS/LOGO/LOGO.png" class="figure-img img-fluid rounded" alt="SANMAR CUEDERNOS PEDIATRICOS" height="auto" width="auto"/></a>
+        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+                        <a class="nav-link" href="../pages/envios.html">ENVIOS</a>
+                        <a class="nav-link" href="../pages/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a>
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </div>
                 </div>
-            </div>
         </div>
+    </nav>
+</header>
+
+
+
+
+<main class="main"> 
+    
+
+    <div>
+    <a href="../pages/productos.html"><img class="figure-img img-fluid rounded" src="ASSETS/images/fotoCabecera.png"></a>
     </div>
+
+
+    <section class="pb-5 pt-0">
+        <grammarly-extension data-grammarly-shadow-root="true"
+          style="position: absolute; top: 0px; left: 0px; pointer-events: none;"
+          class="cGcvT"></grammarly-extension>
+        <div class="container-fluid p-0 pb-md-5">
+          <iframe class="map"
+            src="https://www.google.com/maps/place/Hubac+5617,+C1439BPS+CABA/@-34.6624456,-58.4855116,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc96b76b460c5:0x5506052b5907e811!8m2!3d-34.6624456!4d-58.4833229"
+            style="border:0" allowfullscreen="" width="100%" height="300"
+            frameborder="0"></iframe>
+        </div>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12 col-md-6 col-lg-5">
+              <h2>Contactanos</h2>
+              <p class=" ">⭐️ ACOMPAÑANDO FAMILIAS
+                💫 Aquí encontrarán todo lo que necesitan para esta nueva aventura que comienza 👶🏼
+                ✨ @sanmarbaby
+                Venta minorista y mayorista</p>
+              <p class=" ">Dejanos tus datos y nos pondremos en contacto a la brevedad.</p>
+              <p class=" mt-5">
+                <strong>Email:</strong>
+                <a href="info@sanmarcuadernos.com">info@sanmarcuadernos.com</a>
+              </p>
+              <p class=" ">
+                <strong>Telefono:</strong>
+                <a href="https://wa.me/5491136838705">+54 9 1136838705</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-6 ms-auto pt-5 pt-md-0">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control"
+                      placeholder="Nombre">
+  
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control"
+                      placeholder="Apellido">
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col">
+                    <input type="email" class="form-control"
+                      placeholder="Ingresa tu email">
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col">
+                    <input type="email" class="form-control"
+                      placeholder="Motivo">
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col">
+                    <textarea class="form-control border border-secondary"
+                      name="message" rows="3" placeholder="Escribinos..."
+                      style="" spellcheck="false"></textarea>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+
+
+</div>
+
 </main>
 
-<br>
+
 
 
 <footer class="footer">
 
-    <section>
-    <H5>MEDIOS DE PAGO</H5>
-    
-    <div class="medios-de-pago">
-        <i class="fa-brands fa-cc-visa"></i>
-        <i class="fa-solid fa-money-bill-1"></i>
-    </div>   
+    <section class="footer">
+        <footer class="pt-4 pb-4 ">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col">
+                <p>© 2022 SANMAR CUADERNOS. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
     </section>
-
-    <section>
-    <h5>REDES SOCIALES</h5>
-    <div class="redes-sociales">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-    </div>
-</section>
-
-<div class="pie-de-pagina" id="pie-de-pagina"> <p>SANMAR® - 2022. Todos los derechos reservados.</p>
-</div>
     
     
 </footer>
 
-<script src="pages/css/js/script.js"></script>
-
-
+<script src="../pages/js/script.js"></script>
     
 </body> 
 
