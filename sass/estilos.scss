@@ -9,11 +9,11 @@
 
 nav {
     background-color: $color-de-fondo-navbar;
-
+    
     ul {
-       margin: 10px;
-       padding: 0px;
-       list-style-type: none; 
+        margin: 10px;
+        padding: 0px;
+        list-style-type: none; 
     }
 
     li {
@@ -37,8 +37,8 @@ main {
         color: primario;
         }
 
-       
-}
+    }
+
 
 footer {
 
@@ -60,7 +60,7 @@ footer {
 }
 
 
- 
+
 
 
 * {
@@ -144,7 +144,7 @@ body {
     align-items: center;
     color: rgb(199, 124, 186);
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 50px;
     margin-top: 20px;
     padding: 20px;
@@ -186,8 +186,6 @@ body {
     justify-content: center;
     
 }
-
-
 
 
 
